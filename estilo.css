@@ -51,11 +51,12 @@ header h1 {
 footer {
     background-color: cornflowerblue;
     text-align: center;
-    position:absolute;
     width: 100%;
     height: 35px;
     bottom: 0;
     line-height: 35px;
+    
+    
 }
 
 .main_wrapper {
@@ -81,7 +82,8 @@ section {
 #content {
     width: 75%;
     margin-left: 5%;
-    float: left;
+    display: inline-block
+    
 }
 
 ul {
@@ -89,3 +91,4 @@ ul {
     margin: 0;
     padding: 0;
 }
+
