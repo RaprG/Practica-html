@@ -22,23 +22,6 @@ header nav{
     color:#fff;
 }
 
-aside nav{
-    width: 75px;
-    height: 40px;
-    color:#fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    line-height: 40px;
-    margin:auto;
-    
-    
-
-    
-}
 
 
 header h1 {
@@ -70,7 +53,7 @@ aside {
     width: 20%;
     height: 250px;
     float: left;
-    position: relative;
+    
 }
 
 section {
@@ -86,9 +69,36 @@ section {
     
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.vertical {
+    padding-left: 10px;
+    padding-top: 5px;
+    line-height: 30px;
+}   
+.vertical a{
+    color:#ffffff;
+    text-decoration: none;
+}
+  
+.vertical a:hover{
+    color:#fffc55;
 }
 
+ul {
+    list-style: none;
+}
+
+.horizontal li{
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+.horizontal a{
+    color:#ffffff;
+    text-decoration: none;
+    
+    
+}
+.horizontal a:hover{
+    color:#fffc55;
+    
+}
