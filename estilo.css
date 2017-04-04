@@ -60,6 +60,7 @@ aside {
 -webkit-box-shadow: 12px 6px 13px 0px rgba(9, 28, 78, 0.65);
 -moz-box-shadow:    12px 6px 13px 0px rgba(9, 28, 78, 0.65);
 box-shadow:         12px 6px 13px 0px rgba(9, 28, 78, 0.65);
+    
 }
 
 section {
@@ -132,10 +133,15 @@ background: -webkit-linear-gradient(top,  #cedbe9 0%,#aac5de 17%,#3a84c3 30%,#61
 background: linear-gradient(to bottom,  #cedbe9 0%,#aac5de 17%,#3a84c3 30%,#6199c7 50%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
 
+    /* Transicion*/
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
 }
 .horizontal a:hover{
-    background: #ADC0C9;
-    color: #000000;
+    background: #4FA3DF;
+    COLOR:#000000;
+    
     
 }
 
