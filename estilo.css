@@ -20,6 +20,7 @@ header {
 header nav{
     float:right;
     color:#fff;
+    
 }
 
 
@@ -50,14 +51,25 @@ footer {
 
 aside {
     background-color: #660033;
+    font-family: 'Macondo', cursive;
     width: 20%;
     height: 250px;
     float: left;
-    
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+-webkit-box-shadow: 12px 6px 13px 0px rgba(9, 28, 78, 0.65);
+-moz-box-shadow:    12px 6px 13px 0px rgba(9, 28, 78, 0.65);
+box-shadow:         12px 6px 13px 0px rgba(9, 28, 78, 0.65);
 }
 
 section {
    padding:10px;
+    
+}
+section h2{
+   font-family: 'Oswald', sans-serif;
+   font-size: 40px;
+    font-weight: 100;
     
 }
 
@@ -73,12 +85,18 @@ section {
     padding-left: 10px;
     padding-top: 5px;
     line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+
+   
 }   
 .vertical a{
     color:#ffffff;
     text-decoration: none;
+    letter-spacing: 1px;
+    
+    
 }
-  
+
 .vertical a:hover{
     color:#fffc55;
 }
@@ -87,18 +105,48 @@ ul {
     list-style: none;
 }
 
+.horizontal{
+    padding-top: 8px;
+    padding-left: 0;
+    
+}
+
 .horizontal li{
     display: inline-block;
-    padding-left: 10px;
     
 }
 .horizontal a{
     color:#ffffff;
     text-decoration: none;
+    border: 1px solid #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 6px 3px;
+    background-color: #495154;
+    padding-left: 10px;
     
-    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+17,3a84c3+30,6199c7+50,419ad6+59,4bb8f0+71,3a8bc2+84,26558b+100 */
+background: #cedbe9; /* Old browsers */
+background: -moz-linear-gradient(top,  #cedbe9 0%, #aac5de 17%, #3a84c3 30%, #6199c7 50%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #cedbe9 0%,#aac5de 17%,#3a84c3 30%,#6199c7 50%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #cedbe9 0%,#aac5de 17%,#3a84c3 30%,#6199c7 50%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+
 }
 .horizontal a:hover{
-    color:#fffc55;
+    background: #ADC0C9;
+    color: #000000;
     
+}
+
+.title {
+    font-family: 'Macondo', cursive;
+    font-size: 30px;
+    margin-top:5px;
+    margin-left: 10px;
+    
+}
+
+article h3{
+    font-family: 'Oswald', sans-serif;
 }
