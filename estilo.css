@@ -156,3 +156,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', end
 article h3{
     font-family: 'Oswald', sans-serif;
 }
+
+.imagen-1 {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.arti1 {
+    float:left;
+}
