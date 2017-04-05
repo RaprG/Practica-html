@@ -36,9 +36,9 @@
          </nav>
      </aside>
     
-     <div id="content">  
+      
        <section>
-           
+           <div id="content"> 
           <article class="arti1">
             <h2>What is Lorem Ipsum?</h3>
             <p><img class="imagen-1" src="img/imagen1.jpg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -47,8 +47,8 @@
                
            
            <h2>Listas</h2>
-        <article>
-        <h3>Listas desordenadas</h3>
+          <article>
+           <h3>Listas desordenadas</h3>
             
             <ul>
               <li>Elemento lista1</li>
@@ -65,9 +65,9 @@
             </ul>
             
             
-        </article>
-            <article>
-        <h3>Listas ordenadas</h3>
+           </article>
+           <article>
+            <h3>Listas ordenadas</h3>
             
             <ol type="a">
               <li>Elemento lista1</li>
@@ -85,7 +85,7 @@
             
             
         </article>
-              <article>
+        <article>
         <h3>Listas ordenadas</h3>
             
             <dl type="a">
@@ -93,16 +93,91 @@
               <dd>Descripcion djnjdfjkfdj fdfddff sdf d  dfsdfdsfdsf sdfsdfdsfsdfdsf sdfsdfsdffdffsdfsdf sdfsdfsdfdsfdsf sdfsdfsdfsdfsdfsdfsdfsdf sdfsdfsdf sdfsdfs sdfdsf sdf dsf dfsdsfdsfdf
                 </dd>
                 <dt>Titulo 2</dt>
-              <dt>Titulo 3</dl>
-                
-                  
+              <dt>Titulo 3</dt>
+            </dl>
             
-            
-        </article>
-           
+         </article>
         
-      </section>
+         
     </div>  
+         
+           <div class="media-arc">
+        <article>
+        <h3>Audio</h3>
+            <audio controls>
+            <source  src="media/sonido1.mp3" type="audio/mpeg">
+            <source  src="" type="audio/ogg">
+            </audio>
+        </article>
+           <article>
+         <h3>Video</h3>
+            <video width="300px" controls>
+            <source  src="media/video1.mp4" type="audio/mp4">
+            <source  src="media/video2.webm" type="audio/webm">
+            </video>
+        </article>  
+               
+    <article>
+        <form action="" method="post">
+        <fieldset>
+          <legend>Datos de Usuario</legend>
+            <label for="nombre">Nombre</label>
+            <input name="nombre" id="nombre" placeholder="ingrese el nombre aquí" required/>
+            <label for="apellido">apellido</label>
+            <input name="apellido" id="apellido" placeholder="ingrese el apellido aquí" required/>
+            
+        </fieldset>
+        
+        <fieldset>
+           <legend>Datos de información</legend>
+            
+            <label for="ciudad">Ciudad</label>
+            <select name="ciudad" id="ciudad">
+             <optgroup label="América">
+                 <option value"car">Caracas</option></optgroup>
+             <optgroup label="Europa">
+                <option value"ams">Amsterdam</option>
+                <option value"Paris">Paris</option></optgroup>
+                
+            </select>
+            <label for="red">Rojo</label>
+           <input id="red" type="checkbox" value="red"/>
+            <label for="blue">Azul</label>
+            <input id="blue" type="checkbox" value="blue"/>
+            <br>
+            <label for="red1">Rojo</label>
+           <input name="grupo1" id="red1" type="radio" value="red1"/>
+            <label for="blue1">Azul</label>
+            <input name="grupo1" id="blue1" type="radio" value="blue1"/>
+            
+            <label>Navegadores</label>
+            <input list="navegadores" placeholder="datalist"/>
+            <datalist name="navegadores" id="navegadores"><br>
+             
+                <option value"fir">Firefox</option>
+                <option value"chr">Chrome</option>
+                <option value"exp">Explorer</option>
+                
+            </datalist>
+            <label>Comentario</label>
+            <textarea></textarea>
+            
+            
+            <br>
+            <input type="submit" value="Enviar datos" />
+            <input type="reset" value="Limpiar" />
+            
+            
+        </fieldset>
+        </form>
+        
+        </article>  
+               
+     </div>
+         
+    
+      </section>
+    
       
     <footer>footer</footer>
   </div>
